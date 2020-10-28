@@ -136,6 +136,7 @@ return [
         ],
         'preco' => [
             'required' => 'O preço é obrigatório.',
+            'numeric' => 'O preço deve ser numérico.'
         ],
         'descricao' => [
             'required' => 'A descrição é obrigatória',
